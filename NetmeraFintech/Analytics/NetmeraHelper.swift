@@ -2,6 +2,11 @@
 //  @author Initial Code
 
 import NetmeraCore
+import NetmeraAdvertisingId
+import NetmeraAnalytic
+import NetmeraLocation
+import NetmeraNotification
+import NetmeraNotificationInbox
 
 class NetmeraHelper {
     private static let NETMERA_API_KEY = "RH9qH4AIng0xmH-dqrh3SYTSU3Kw3OrQpqAkyF-u6YOgwJJt_7n55WtPYT3ak-U_"
