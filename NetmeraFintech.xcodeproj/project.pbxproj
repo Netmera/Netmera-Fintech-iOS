@@ -130,6 +130,7 @@
 		C9C1AF182E8AD62600FA431A /* CenteredCollectionView in Frameworks */ = {isa = PBXBuildFile; productRef = C9C1AF172E8AD62600FA431A /* CenteredCollectionView */; };
 		C9C1AF1B2E8AD63F00FA431A /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C9C1AF1A2E8AD63F00FA431A /* IQKeyboardManagerSwift */; };
 		C9C1AF1E2E8AD65A00FA431A /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = C9C1AF1D2E8AD65A00FA431A /* Toast */; };
+		C9C1B8B62E8BC2E500FA431A /* Netmera-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = C9C1B8B52E8BC20900FA431A /* Netmera-Config.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -267,6 +268,7 @@
 		1CEC24B32A61949400AB937A /* SomethingWrongEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomethingWrongEvent.swift; sourceTree = "<group>"; };
 		1CEC24B52A61A24B00AB937A /* NetmeraEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetmeraEvents.swift; sourceTree = "<group>"; };
 		1CEC24B72A61A39300AB937A /* NMFintechUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NMFintechUser.swift; sourceTree = "<group>"; };
+		C9C1B8B52E8BC20900FA431A /* Netmera-Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Netmera-Config.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -459,6 +461,7 @@
 				1C2E0BD52A601D2E00CBC784 /* SceneDelegate.swift */,
 				1C2E0BDE2A601D2F00CBC784 /* LaunchScreen.storyboard */,
 				1C2E0BE12A601D2F00CBC784 /* Info.plist */,
+				C9C1B8B52E8BC20900FA431A /* Netmera-Config.plist */,
 			);
 			path = NetmeraFintech;
 			sourceTree = "<group>";
@@ -785,6 +788,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C2E0BFB2A602D1200CBC784 /* sf_pro_display.ttf in Resources */,
+				C9C1B8B62E8BC2E500FA431A /* Netmera-Config.plist in Resources */,
 				1C2E0BF92A602D1200CBC784 /* Nunito-SemiBold.ttf in Resources */,
 				1C2E0BF72A602D1200CBC784 /* Nunito-Regular.ttf in Resources */,
 				1C29287D2A68257E0081E587 /* SFProDisplay-Semibold.ttf in Resources */,
