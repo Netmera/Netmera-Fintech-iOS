@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1BEB70E728659A79FB1E22BE /* Pods_NotificationService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A17598485E86F85B27BDB52 /* Pods_NotificationService.framework */; };
 		1C09160C2A66B83D006FC3B4 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C09160B2A66B83D006FC3B4 /* HomeVC.swift */; };
 		1C09160E2A66B9A0006FC3B4 /* PaymentsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C09160D2A66B9A0006FC3B4 /* PaymentsVC.swift */; };
 		1C0916102A66BA34006FC3B4 /* HistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C09160F2A66BA34006FC3B4 /* HistoryVC.swift */; };
@@ -93,8 +92,45 @@
 		1CEC24B42A61949400AB937A /* SomethingWrongEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEC24B32A61949400AB937A /* SomethingWrongEvent.swift */; };
 		1CEC24B62A61A24B00AB937A /* NetmeraEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEC24B52A61A24B00AB937A /* NetmeraEvents.swift */; };
 		1CEC24B82A61A39300AB937A /* NMFintechUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEC24B72A61A39300AB937A /* NMFintechUser.swift */; };
-		383192432293C032DC3D3081 /* Pods_NotificationViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB8665FCFBAACBD8A7724C1 /* Pods_NotificationViewController.framework */; };
-		8BF285FF6FCC1E37F837CF2E /* Pods_NetmeraFintech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FC139A3AB9C8765E05BC75F /* Pods_NetmeraFintech.framework */; };
+		C954DA2C2E12D55700CCBA87 /* NetmeraAdvertisingId in Frameworks */ = {isa = PBXBuildFile; productRef = C954DA2B2E12D55700CCBA87 /* NetmeraAdvertisingId */; };
+		C954DA2E2E12D55700CCBA87 /* NetmeraAnalytic in Frameworks */ = {isa = PBXBuildFile; productRef = C954DA2D2E12D55700CCBA87 /* NetmeraAnalytic */; };
+		C954DA302E12D55700CCBA87 /* NetmeraAnalyticAutotracking in Frameworks */ = {isa = PBXBuildFile; productRef = C954DA2F2E12D55700CCBA87 /* NetmeraAnalyticAutotracking */; };
+		C954DA322E12D55700CCBA87 /* NetmeraCore in Frameworks */ = {isa = PBXBuildFile; productRef = C954DA312E12D55700CCBA87 /* NetmeraCore */; };
+		C954DA342E12D55700CCBA87 /* NetmeraGeofence in Frameworks */ = {isa = PBXBuildFile; productRef = C954DA332E12D55700CCBA87 /* NetmeraGeofence */; };
+		C954DA362E12D55700CCBA87 /* NetmeraLiveActivity in Frameworks */ = {isa = PBXBuildFile; productRef = C954DA352E12D55700CCBA87 /* NetmeraLiveActivity */; };
+		C954DA382E12D55700CCBA87 /* NetmeraLocation in Frameworks */ = {isa = PBXBuildFile; productRef = C954DA372E12D55700CCBA87 /* NetmeraLocation */; };
+		C954DA3A2E12D55700CCBA87 /* NetmeraNotification in Frameworks */ = {isa = PBXBuildFile; productRef = C954DA392E12D55700CCBA87 /* NetmeraNotification */; };
+		C954DA3C2E12D55700CCBA87 /* NetmeraNotificationContentExtension in Frameworks */ = {isa = PBXBuildFile; productRef = C954DA3B2E12D55700CCBA87 /* NetmeraNotificationContentExtension */; };
+		C954DA3E2E12D55700CCBA87 /* NetmeraNotificationCore in Frameworks */ = {isa = PBXBuildFile; productRef = C954DA3D2E12D55700CCBA87 /* NetmeraNotificationCore */; };
+		C954DA402E12D55700CCBA87 /* NetmeraNotificationInbox in Frameworks */ = {isa = PBXBuildFile; productRef = C954DA3F2E12D55700CCBA87 /* NetmeraNotificationInbox */; };
+		C954DA422E12D55700CCBA87 /* NetmeraNotificationServiceExtension in Frameworks */ = {isa = PBXBuildFile; productRef = C954DA412E12D55700CCBA87 /* NetmeraNotificationServiceExtension */; };
+		C9C1AEE92E8AD5CE00FA431A /* FirebaseAI in Frameworks */ = {isa = PBXBuildFile; productRef = C9C1AEE82E8AD5CE00FA431A /* FirebaseAI */; };
+		C9C1AEEB2E8AD5CE00FA431A /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = C9C1AEEA2E8AD5CE00FA431A /* FirebaseAnalytics */; };
+		C9C1AEED2E8AD5CE00FA431A /* FirebaseAnalyticsCore in Frameworks */ = {isa = PBXBuildFile; productRef = C9C1AEEC2E8AD5CE00FA431A /* FirebaseAnalyticsCore */; };
+		C9C1AEEF2E8AD5CE00FA431A /* FirebaseAnalyticsIdentitySupport in Frameworks */ = {isa = PBXBuildFile; productRef = C9C1AEEE2E8AD5CE00FA431A /* FirebaseAnalyticsIdentitySupport */; };
+		C9C1AEF12E8AD5CE00FA431A /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = C9C1AEF02E8AD5CE00FA431A /* FirebaseAppCheck */; };
+		C9C1AEF32E8AD5CE00FA431A /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = C9C1AEF22E8AD5CE00FA431A /* FirebaseAppDistribution-Beta */; };
+		C9C1AEF52E8AD5CE00FA431A /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C9C1AEF42E8AD5CE00FA431A /* FirebaseAuth */; };
+		C9C1AEF72E8AD5CE00FA431A /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = C9C1AEF62E8AD5CE00FA431A /* FirebaseAuthCombine-Community */; };
+		C9C1AEF92E8AD5CE00FA431A /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = C9C1AEF82E8AD5CE00FA431A /* FirebaseCore */; };
+		C9C1AEFB2E8AD5CE00FA431A /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = C9C1AEFA2E8AD5CE00FA431A /* FirebaseCrashlytics */; };
+		C9C1AEFD2E8AD5CE00FA431A /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = C9C1AEFC2E8AD5CE00FA431A /* FirebaseDatabase */; };
+		C9C1AEFF2E8AD5CE00FA431A /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = C9C1AEFE2E8AD5CE00FA431A /* FirebaseFirestore */; };
+		C9C1AF012E8AD5CE00FA431A /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = C9C1AF002E8AD5CE00FA431A /* FirebaseFirestoreCombine-Community */; };
+		C9C1AF032E8AD5CE00FA431A /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = C9C1AF022E8AD5CE00FA431A /* FirebaseFunctions */; };
+		C9C1AF052E8AD5CE00FA431A /* FirebaseFunctionsCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = C9C1AF042E8AD5CE00FA431A /* FirebaseFunctionsCombine-Community */; };
+		C9C1AF072E8AD5CE00FA431A /* FirebaseInAppMessaging-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = C9C1AF062E8AD5CE00FA431A /* FirebaseInAppMessaging-Beta */; };
+		C9C1AF092E8AD5CE00FA431A /* FirebaseInstallations in Frameworks */ = {isa = PBXBuildFile; productRef = C9C1AF082E8AD5CE00FA431A /* FirebaseInstallations */; };
+		C9C1AF0B2E8AD5CE00FA431A /* FirebaseMLModelDownloader in Frameworks */ = {isa = PBXBuildFile; productRef = C9C1AF0A2E8AD5CE00FA431A /* FirebaseMLModelDownloader */; };
+		C9C1AF0D2E8AD5CE00FA431A /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = C9C1AF0C2E8AD5CE00FA431A /* FirebaseMessaging */; };
+		C9C1AF0F2E8AD5CE00FA431A /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = C9C1AF0E2E8AD5CE00FA431A /* FirebasePerformance */; };
+		C9C1AF112E8AD5CE00FA431A /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = C9C1AF102E8AD5CE00FA431A /* FirebaseRemoteConfig */; };
+		C9C1AF132E8AD5CE00FA431A /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = C9C1AF122E8AD5CE00FA431A /* FirebaseStorage */; };
+		C9C1AF152E8AD5CE00FA431A /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = C9C1AF142E8AD5CE00FA431A /* FirebaseStorageCombine-Community */; };
+		C9C1AF182E8AD62600FA431A /* CenteredCollectionView in Frameworks */ = {isa = PBXBuildFile; productRef = C9C1AF172E8AD62600FA431A /* CenteredCollectionView */; };
+		C9C1AF1B2E8AD63F00FA431A /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C9C1AF1A2E8AD63F00FA431A /* IQKeyboardManagerSwift */; };
+		C9C1AF1E2E8AD65A00FA431A /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = C9C1AF1D2E8AD65A00FA431A /* Toast */; };
+		C9C1B8B62E8BC2E500FA431A /* Netmera-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = C9C1B8B52E8BC20900FA431A /* Netmera-Config.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -130,8 +166,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0A17598485E86F85B27BDB52 /* Pods_NotificationService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotificationService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1916A5236639B4F888ECAA78 /* Pods-NetmeraFintech.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetmeraFintech.debug.xcconfig"; path = "Target Support Files/Pods-NetmeraFintech/Pods-NetmeraFintech.debug.xcconfig"; sourceTree = "<group>"; };
 		1C09160B2A66B83D006FC3B4 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		1C09160D2A66B9A0006FC3B4 /* PaymentsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsVC.swift; sourceTree = "<group>"; };
 		1C09160F2A66BA34006FC3B4 /* HistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryVC.swift; sourceTree = "<group>"; };
@@ -234,13 +268,7 @@
 		1CEC24B32A61949400AB937A /* SomethingWrongEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomethingWrongEvent.swift; sourceTree = "<group>"; };
 		1CEC24B52A61A24B00AB937A /* NetmeraEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetmeraEvents.swift; sourceTree = "<group>"; };
 		1CEC24B72A61A39300AB937A /* NMFintechUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NMFintechUser.swift; sourceTree = "<group>"; };
-		32976D944D69CFDC0B2BD1FB /* Pods-NotificationViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationViewController.debug.xcconfig"; path = "Target Support Files/Pods-NotificationViewController/Pods-NotificationViewController.debug.xcconfig"; sourceTree = "<group>"; };
-		796B81D19C14A96C3A26C7C6 /* Pods-NetmeraFintech.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetmeraFintech.release.xcconfig"; path = "Target Support Files/Pods-NetmeraFintech/Pods-NetmeraFintech.release.xcconfig"; sourceTree = "<group>"; };
-		8B46F6670ECAA0E66CD4DC67 /* Pods-NotificationViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationViewController.release.xcconfig"; path = "Target Support Files/Pods-NotificationViewController/Pods-NotificationViewController.release.xcconfig"; sourceTree = "<group>"; };
-		9630C3A117300D3778801C69 /* Pods-NotificationService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationService.release.xcconfig"; path = "Target Support Files/Pods-NotificationService/Pods-NotificationService.release.xcconfig"; sourceTree = "<group>"; };
-		98603B6BB4C4C7F6D7C8202F /* Pods-NotificationService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationService.debug.xcconfig"; path = "Target Support Files/Pods-NotificationService/Pods-NotificationService.debug.xcconfig"; sourceTree = "<group>"; };
-		9FC139A3AB9C8765E05BC75F /* Pods_NetmeraFintech.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetmeraFintech.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FCB8665FCFBAACBD8A7724C1 /* Pods_NotificationViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotificationViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9C1B8B52E8BC20900FA431A /* Netmera-Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Netmera-Config.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -248,7 +276,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BEB70E728659A79FB1E22BE /* Pods_NotificationService.framework in Frameworks */,
+				C954DA422E12D55700CCBA87 /* NetmeraNotificationServiceExtension in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +284,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BF285FF6FCC1E37F837CF2E /* Pods_NetmeraFintech.framework in Frameworks */,
+				C9C1AF1B2E8AD63F00FA431A /* IQKeyboardManagerSwift in Frameworks */,
+				C954DA362E12D55700CCBA87 /* NetmeraLiveActivity in Frameworks */,
+				C9C1AEF72E8AD5CE00FA431A /* FirebaseAuthCombine-Community in Frameworks */,
+				C9C1AF0F2E8AD5CE00FA431A /* FirebasePerformance in Frameworks */,
+				C954DA302E12D55700CCBA87 /* NetmeraAnalyticAutotracking in Frameworks */,
+				C9C1AF092E8AD5CE00FA431A /* FirebaseInstallations in Frameworks */,
+				C9C1AF132E8AD5CE00FA431A /* FirebaseStorage in Frameworks */,
+				C9C1AF032E8AD5CE00FA431A /* FirebaseFunctions in Frameworks */,
+				C9C1AEF52E8AD5CE00FA431A /* FirebaseAuth in Frameworks */,
+				C9C1AEEB2E8AD5CE00FA431A /* FirebaseAnalytics in Frameworks */,
+				C954DA3A2E12D55700CCBA87 /* NetmeraNotification in Frameworks */,
+				C954DA342E12D55700CCBA87 /* NetmeraGeofence in Frameworks */,
+				C9C1AF1E2E8AD65A00FA431A /* Toast in Frameworks */,
+				C9C1AEF92E8AD5CE00FA431A /* FirebaseCore in Frameworks */,
+				C954DA402E12D55700CCBA87 /* NetmeraNotificationInbox in Frameworks */,
+				C9C1AF112E8AD5CE00FA431A /* FirebaseRemoteConfig in Frameworks */,
+				C9C1AEFF2E8AD5CE00FA431A /* FirebaseFirestore in Frameworks */,
+				C9C1AF182E8AD62600FA431A /* CenteredCollectionView in Frameworks */,
+				C9C1AEED2E8AD5CE00FA431A /* FirebaseAnalyticsCore in Frameworks */,
+				C9C1AEF32E8AD5CE00FA431A /* FirebaseAppDistribution-Beta in Frameworks */,
+				C9C1AF072E8AD5CE00FA431A /* FirebaseInAppMessaging-Beta in Frameworks */,
+				C9C1AF052E8AD5CE00FA431A /* FirebaseFunctionsCombine-Community in Frameworks */,
+				C954DA322E12D55700CCBA87 /* NetmeraCore in Frameworks */,
+				C9C1AEFD2E8AD5CE00FA431A /* FirebaseDatabase in Frameworks */,
+				C9C1AF012E8AD5CE00FA431A /* FirebaseFirestoreCombine-Community in Frameworks */,
+				C9C1AF152E8AD5CE00FA431A /* FirebaseStorageCombine-Community in Frameworks */,
+				C954DA382E12D55700CCBA87 /* NetmeraLocation in Frameworks */,
+				C954DA2E2E12D55700CCBA87 /* NetmeraAnalytic in Frameworks */,
+				C9C1AEEF2E8AD5CE00FA431A /* FirebaseAnalyticsIdentitySupport in Frameworks */,
+				C9C1AEE92E8AD5CE00FA431A /* FirebaseAI in Frameworks */,
+				C954DA3E2E12D55700CCBA87 /* NetmeraNotificationCore in Frameworks */,
+				C9C1AEFB2E8AD5CE00FA431A /* FirebaseCrashlytics in Frameworks */,
+				C9C1AEF12E8AD5CE00FA431A /* FirebaseAppCheck in Frameworks */,
+				C9C1AF0D2E8AD5CE00FA431A /* FirebaseMessaging in Frameworks */,
+				C954DA2C2E12D55700CCBA87 /* NetmeraAdvertisingId in Frameworks */,
+				C9C1AF0B2E8AD5CE00FA431A /* FirebaseMLModelDownloader in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +329,7 @@
 			files = (
 				1C45F0BA2A89AFD0000E8FDD /* UserNotificationsUI.framework in Frameworks */,
 				1C45F0B82A89AFD0000E8FDD /* UserNotifications.framework in Frameworks */,
-				383192432293C032DC3D3081 /* Pods_NotificationViewController.framework in Frameworks */,
+				C954DA3C2E12D55700CCBA87 /* NetmeraNotificationContentExtension in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,7 +432,6 @@
 				1C0DCC862A977F6F0001F4B7 /* NotificationService */,
 				1C2E0BD12A601D2E00CBC784 /* Products */,
 				916ECBA36FC6FE68D773CF9C /* Frameworks */,
-				6BC704E850FAC504D52E6CBE /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -399,6 +461,7 @@
 				1C2E0BD52A601D2E00CBC784 /* SceneDelegate.swift */,
 				1C2E0BDE2A601D2F00CBC784 /* LaunchScreen.storyboard */,
 				1C2E0BE12A601D2F00CBC784 /* Info.plist */,
+				C9C1B8B52E8BC20900FA431A /* Netmera-Config.plist */,
 			);
 			path = NetmeraFintech;
 			sourceTree = "<group>";
@@ -585,19 +648,6 @@
 			path = NetmeraEventModels;
 			sourceTree = "<group>";
 		};
-		6BC704E850FAC504D52E6CBE /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1916A5236639B4F888ECAA78 /* Pods-NetmeraFintech.debug.xcconfig */,
-				796B81D19C14A96C3A26C7C6 /* Pods-NetmeraFintech.release.xcconfig */,
-				98603B6BB4C4C7F6D7C8202F /* Pods-NotificationService.debug.xcconfig */,
-				9630C3A117300D3778801C69 /* Pods-NotificationService.release.xcconfig */,
-				32976D944D69CFDC0B2BD1FB /* Pods-NotificationViewController.debug.xcconfig */,
-				8B46F6670ECAA0E66CD4DC67 /* Pods-NotificationViewController.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		916ECBA36FC6FE68D773CF9C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -615,9 +665,6 @@
 				1C45F0CA2A89B4A2000E8FDD /* NetmeraCore.xcframework */,
 				1C45F0B72A89AFD0000E8FDD /* UserNotifications.framework */,
 				1C45F0B92A89AFD0000E8FDD /* UserNotificationsUI.framework */,
-				9FC139A3AB9C8765E05BC75F /* Pods_NetmeraFintech.framework */,
-				0A17598485E86F85B27BDB52 /* Pods_NotificationService.framework */,
-				FCB8665FCFBAACBD8A7724C1 /* Pods_NotificationViewController.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -629,7 +676,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1C0DCC8F2A977F6F0001F4B7 /* Build configuration list for PBXNativeTarget "NotificationService" */;
 			buildPhases = (
-				06E31B1A75B6318F6C7164C9 /* [CP] Check Pods Manifest.lock */,
 				1C0DCC812A977F6F0001F4B7 /* Sources */,
 				1C0DCC822A977F6F0001F4B7 /* Frameworks */,
 				1C0DCC832A977F6F0001F4B7 /* Resources */,
@@ -647,13 +693,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1C2E0BE42A601D2F00CBC784 /* Build configuration list for PBXNativeTarget "NetmeraFintech" */;
 			buildPhases = (
-				FF4B5AC39A02037F2B8243B7 /* [CP] Check Pods Manifest.lock */,
 				1C2E0BCC2A601D2E00CBC784 /* Sources */,
 				1C2E0BCD2A601D2E00CBC784 /* Frameworks */,
 				1C2E0BCE2A601D2E00CBC784 /* Resources */,
 				1C2E0BFD2A602FCC00CBC784 /* Swift Format */,
 				1C61F67A2A89AC650084C5BF /* Embed Foundation Extensions */,
-				A07CBEE663D7F53698DD595A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -670,7 +714,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1C45F0C72A89AFD0000E8FDD /* Build configuration list for PBXNativeTarget "NotificationViewController" */;
 			buildPhases = (
-				091B5E7320C4AFF5A9A5F579 /* [CP] Check Pods Manifest.lock */,
 				1C45F0B22A89AFD0000E8FDD /* Sources */,
 				1C45F0B32A89AFD0000E8FDD /* Frameworks */,
 				1C45F0B42A89AFD0000E8FDD /* Resources */,
@@ -714,6 +757,13 @@
 				Base,
 			);
 			mainGroup = 1C2E0BC72A601D2E00CBC784;
+			packageReferences = (
+				C954DA2A2E12D55600CCBA87 /* XCRemoteSwiftPackageReference "swift-sdk" */,
+				C9C1AEE72E8AD5CE00FA431A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				C9C1AF162E8AD62600FA431A /* XCRemoteSwiftPackageReference "CenteredCollectionView" */,
+				C9C1AF192E8AD63F00FA431A /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				C9C1AF1C2E8AD65A00FA431A /* XCRemoteSwiftPackageReference "toast-swift" */,
+			);
 			productRefGroup = 1C2E0BD12A601D2E00CBC784 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -738,6 +788,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C2E0BFB2A602D1200CBC784 /* sf_pro_display.ttf in Resources */,
+				C9C1B8B62E8BC2E500FA431A /* Netmera-Config.plist in Resources */,
 				1C2E0BF92A602D1200CBC784 /* Nunito-SemiBold.ttf in Resources */,
 				1C2E0BF72A602D1200CBC784 /* Nunito-Regular.ttf in Resources */,
 				1C29287D2A68257E0081E587 /* SFProDisplay-Semibold.ttf in Resources */,
@@ -764,50 +815,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		06E31B1A75B6318F6C7164C9 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-NotificationService-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		091B5E7320C4AFF5A9A5F579 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-NotificationViewController-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		1C2E0BFD2A602FCC00CBC784 /* Swift Format */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 12;
@@ -825,45 +832,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftformat >/dev/null; then\n  swiftformat .\nelse\n  echo \"warning: SwiftFormat not installed, download from https://github.com/nicklockwood/SwiftFormat\"\nfi\n";
-		};
-		A07CBEE663D7F53698DD595A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NetmeraFintech/Pods-NetmeraFintech-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NetmeraFintech/Pods-NetmeraFintech-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NetmeraFintech/Pods-NetmeraFintech-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FF4B5AC39A02037F2B8243B7 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-NetmeraFintech-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1001,7 +969,6 @@
 /* Begin XCBuildConfiguration section */
 		1C0DCC8D2A977F6F0001F4B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98603B6BB4C4C7F6D7C8202F /* Pods-NotificationService.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1027,7 +994,6 @@
 		};
 		1C0DCC8E2A977F6F0001F4B7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9630C3A117300D3778801C69 /* Pods-NotificationService.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1167,17 +1133,16 @@
 		};
 		1C2E0BE52A601D2F00CBC784 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1916A5236639B4F888ECAA78 /* Pods-NetmeraFintech.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				APPLICATION_EXTENSION_API_ONLY = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CODE_SIGN_ENTITLEMENTS = NetmeraFintech/NetmeraFintech.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 7;
+				CURRENT_PROJECT_VERSION = 9;
 				DEVELOPMENT_TEAM = 95N24W2PH8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NetmeraFintech/Info.plist;
@@ -1207,17 +1172,16 @@
 		};
 		1C2E0BE62A601D2F00CBC784 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 796B81D19C14A96C3A26C7C6 /* Pods-NetmeraFintech.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				APPLICATION_EXTENSION_API_ONLY = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CODE_SIGN_ENTITLEMENTS = NetmeraFintech/NetmeraFintech.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 7;
+				CURRENT_PROJECT_VERSION = 9;
 				DEVELOPMENT_TEAM = 95N24W2PH8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NetmeraFintech/Info.plist;
@@ -1247,7 +1211,6 @@
 		};
 		1C45F0C52A89AFD0000E8FDD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32976D944D69CFDC0B2BD1FB /* Pods-NotificationViewController.debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
@@ -1275,7 +1238,6 @@
 		};
 		1C45F0C62A89AFD0000E8FDD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B46F6670ECAA0E66CD4DC67 /* Pods-NotificationViewController.release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
@@ -1341,6 +1303,242 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C954DA2A2E12D55600CCBA87 /* XCRemoteSwiftPackageReference "swift-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Netmera/swift-sdk";
+			requirement = {
+				kind = exactVersion;
+				version = 4.11.0;
+			};
+		};
+		C9C1AEE72E8AD5CE00FA431A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.3.0;
+			};
+		};
+		C9C1AF162E8AD62600FA431A /* XCRemoteSwiftPackageReference "CenteredCollectionView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/BenEmdon/CenteredCollectionView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.2;
+			};
+		};
+		C9C1AF192E8AD63F00FA431A /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = exactVersion;
+				version = 7.0.1;
+			};
+		};
+		C9C1AF1C2E8AD65A00FA431A /* XCRemoteSwiftPackageReference "toast-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/BastiaanJansen/toast-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C954DA2B2E12D55700CCBA87 /* NetmeraAdvertisingId */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C954DA2A2E12D55600CCBA87 /* XCRemoteSwiftPackageReference "swift-sdk" */;
+			productName = NetmeraAdvertisingId;
+		};
+		C954DA2D2E12D55700CCBA87 /* NetmeraAnalytic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C954DA2A2E12D55600CCBA87 /* XCRemoteSwiftPackageReference "swift-sdk" */;
+			productName = NetmeraAnalytic;
+		};
+		C954DA2F2E12D55700CCBA87 /* NetmeraAnalyticAutotracking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C954DA2A2E12D55600CCBA87 /* XCRemoteSwiftPackageReference "swift-sdk" */;
+			productName = NetmeraAnalyticAutotracking;
+		};
+		C954DA312E12D55700CCBA87 /* NetmeraCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C954DA2A2E12D55600CCBA87 /* XCRemoteSwiftPackageReference "swift-sdk" */;
+			productName = NetmeraCore;
+		};
+		C954DA332E12D55700CCBA87 /* NetmeraGeofence */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C954DA2A2E12D55600CCBA87 /* XCRemoteSwiftPackageReference "swift-sdk" */;
+			productName = NetmeraGeofence;
+		};
+		C954DA352E12D55700CCBA87 /* NetmeraLiveActivity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C954DA2A2E12D55600CCBA87 /* XCRemoteSwiftPackageReference "swift-sdk" */;
+			productName = NetmeraLiveActivity;
+		};
+		C954DA372E12D55700CCBA87 /* NetmeraLocation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C954DA2A2E12D55600CCBA87 /* XCRemoteSwiftPackageReference "swift-sdk" */;
+			productName = NetmeraLocation;
+		};
+		C954DA392E12D55700CCBA87 /* NetmeraNotification */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C954DA2A2E12D55600CCBA87 /* XCRemoteSwiftPackageReference "swift-sdk" */;
+			productName = NetmeraNotification;
+		};
+		C954DA3B2E12D55700CCBA87 /* NetmeraNotificationContentExtension */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C954DA2A2E12D55600CCBA87 /* XCRemoteSwiftPackageReference "swift-sdk" */;
+			productName = NetmeraNotificationContentExtension;
+		};
+		C954DA3D2E12D55700CCBA87 /* NetmeraNotificationCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C954DA2A2E12D55600CCBA87 /* XCRemoteSwiftPackageReference "swift-sdk" */;
+			productName = NetmeraNotificationCore;
+		};
+		C954DA3F2E12D55700CCBA87 /* NetmeraNotificationInbox */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C954DA2A2E12D55600CCBA87 /* XCRemoteSwiftPackageReference "swift-sdk" */;
+			productName = NetmeraNotificationInbox;
+		};
+		C954DA412E12D55700CCBA87 /* NetmeraNotificationServiceExtension */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C954DA2A2E12D55600CCBA87 /* XCRemoteSwiftPackageReference "swift-sdk" */;
+			productName = NetmeraNotificationServiceExtension;
+		};
+		C9C1AEE82E8AD5CE00FA431A /* FirebaseAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9C1AEE72E8AD5CE00FA431A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAI;
+		};
+		C9C1AEEA2E8AD5CE00FA431A /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9C1AEE72E8AD5CE00FA431A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		C9C1AEEC2E8AD5CE00FA431A /* FirebaseAnalyticsCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9C1AEE72E8AD5CE00FA431A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsCore;
+		};
+		C9C1AEEE2E8AD5CE00FA431A /* FirebaseAnalyticsIdentitySupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9C1AEE72E8AD5CE00FA431A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsIdentitySupport;
+		};
+		C9C1AEF02E8AD5CE00FA431A /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9C1AEE72E8AD5CE00FA431A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		C9C1AEF22E8AD5CE00FA431A /* FirebaseAppDistribution-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9C1AEE72E8AD5CE00FA431A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAppDistribution-Beta";
+		};
+		C9C1AEF42E8AD5CE00FA431A /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9C1AEE72E8AD5CE00FA431A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		C9C1AEF62E8AD5CE00FA431A /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9C1AEE72E8AD5CE00FA431A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		C9C1AEF82E8AD5CE00FA431A /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9C1AEE72E8AD5CE00FA431A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		C9C1AEFA2E8AD5CE00FA431A /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9C1AEE72E8AD5CE00FA431A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		C9C1AEFC2E8AD5CE00FA431A /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9C1AEE72E8AD5CE00FA431A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		C9C1AEFE2E8AD5CE00FA431A /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9C1AEE72E8AD5CE00FA431A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		C9C1AF002E8AD5CE00FA431A /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9C1AEE72E8AD5CE00FA431A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		C9C1AF022E8AD5CE00FA431A /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9C1AEE72E8AD5CE00FA431A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		C9C1AF042E8AD5CE00FA431A /* FirebaseFunctionsCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9C1AEE72E8AD5CE00FA431A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFunctionsCombine-Community";
+		};
+		C9C1AF062E8AD5CE00FA431A /* FirebaseInAppMessaging-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9C1AEE72E8AD5CE00FA431A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessaging-Beta";
+		};
+		C9C1AF082E8AD5CE00FA431A /* FirebaseInstallations */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9C1AEE72E8AD5CE00FA431A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseInstallations;
+		};
+		C9C1AF0A2E8AD5CE00FA431A /* FirebaseMLModelDownloader */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9C1AEE72E8AD5CE00FA431A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMLModelDownloader;
+		};
+		C9C1AF0C2E8AD5CE00FA431A /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9C1AEE72E8AD5CE00FA431A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		C9C1AF0E2E8AD5CE00FA431A /* FirebasePerformance */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9C1AEE72E8AD5CE00FA431A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebasePerformance;
+		};
+		C9C1AF102E8AD5CE00FA431A /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9C1AEE72E8AD5CE00FA431A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+		C9C1AF122E8AD5CE00FA431A /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9C1AEE72E8AD5CE00FA431A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		C9C1AF142E8AD5CE00FA431A /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9C1AEE72E8AD5CE00FA431A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+		C9C1AF172E8AD62600FA431A /* CenteredCollectionView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9C1AF162E8AD62600FA431A /* XCRemoteSwiftPackageReference "CenteredCollectionView" */;
+			productName = CenteredCollectionView;
+		};
+		C9C1AF1A2E8AD63F00FA431A /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9C1AF192E8AD63F00FA431A /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		C9C1AF1D2E8AD65A00FA431A /* Toast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9C1AF1C2E8AD65A00FA431A /* XCRemoteSwiftPackageReference "toast-swift" */;
+			productName = Toast;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1C2E0BC82A601D2E00CBC784 /* Project object */;
 }

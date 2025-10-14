@@ -15,7 +15,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
     func application(_: UIApplication, didFinishLaunchingWithOptions _: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         IQKeyboardManager.shared.enable = true
 
-        NetmeraHelper.initNetmera()
+        Netmera.initialize()
+        Netmera.setLogLevel(.debug)
 
         FirebaseApp.configure()
 

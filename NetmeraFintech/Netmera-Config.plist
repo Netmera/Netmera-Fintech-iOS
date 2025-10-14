@@ -2,7 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>IDEDidComputeMac32BitWarning</key>
-	<true/>
+	<key>sdk_params</key>
+	<dict>
+		<key>api_key</key>
+		<string>RH9qH4AIng0xmH-dqrh3SYTSU3Kw3OrQpqAkyF-u6YOgwJJt_7n55WtPYT3ak-U_</string>
+	</dict>
 </dict>
 </plist>
