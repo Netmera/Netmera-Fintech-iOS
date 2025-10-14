@@ -24,6 +24,7 @@ class NetmeraHelper {
         Netmera.requestPushNotificationAuthorization(for: [.alert, .badge, .sound])
     }
 
+    // Request location permission
     public static func requestLocationPermission() {
         Netmera.requestLocationAuthorization()
     }

@@ -1,7 +1,7 @@
 //  Copyright (c) 2023 Netmera.
 //  @author Initial Code
 
-import ToastViewSwift
+import Toast
 import UIKit
 
 extension UIViewController {
@@ -21,12 +21,8 @@ extension UIViewController {
     func showToastMessage(message: String) {
         let config = ToastConfiguration(
             direction: .bottom,
-            autoHide: true,
-            enablePanToClose: true,
-            displayTime: 0.5,
-            animationTime: 0.2,
-            enteringAnimation: .fade(alphaValue: 0.5),
-            exitingAnimation: .fade(alphaValue: 0.0)
+            enteringAnimation: .fade(alpha: 0.5),
+            exitingAnimation: .fade(alpha: 0.0)
         )
         let toast = Toast.text(message, config: config)
         toast.show()
