@@ -150,8 +150,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Netmera/swift-sdk",
       "state" : {
-        "revision" : "f2691b9f62e7247c2313553cb6c6a7f2ba4fb954",
-        "version" : "4.11.0"
+        "revision" : "effa0ec0ba2f7c9c9ad407bc369fcbd0b70e3758",
+        "version" : "4.13.0"
       }
     },
     {

@@ -1309,8 +1309,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Netmera/swift-sdk";
 			requirement = {
-				kind = exactVersion;
-				version = 4.11.0;
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.13.0;
 			};
 		};
 		C9C1AEE72E8AD5CE00FA431A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
