@@ -1,15 +1,14 @@
 //  Copyright (c) 2023 Netmera.
 //  @author Initial Code
 
-import NetmeraCore
 import NetmeraAdvertisingId
 import NetmeraAnalytic
+import NetmeraCore
 import NetmeraLocation
 import NetmeraNotification
 import NetmeraNotificationInbox
 
 class NetmeraHelper {
-
     // Request push notification authorization from user by calling the following method in an appropriate place:
     public static func requestNotificationPermission() {
         Netmera.requestPushNotificationAuthorization(for: [.alert, .badge, .sound])

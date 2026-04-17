@@ -6,6 +6,8 @@
 	<dict>
 		<key>api_key</key>
 		<string>RH9qH4AIng0xmH-dqrh3SYTSU3Kw3OrQpqAkyF-u6YOgwJJt_7n55WtPYT3ak-U_</string>
+    <key>app_group_name</key>
+    <string>group.com.netmera.impact.fintech</string>
 	</dict>
 </dict>
 </plist>
